@@ -1,0 +1,106 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{    
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;    
+}
+h1,h2,h3,h4,h5,h6
+{
+    margin:0;
+}
+#header
+{
+    background:url("../images/header.png");
+    height:80px;
+}
+#header span
+{
+    color:#FFFFFF;
+    font-size:18px;
+    display:inline-block;
+    padding:20px 10px 0 0;
+}
+#htmlbody
+{
+    /*background:url("../images/cloudbg.png")*/
+    background:url("../images/wallpaper.png")
+}
+#mainpane
+{
+    width:760px;
+    margin:auto;
+    padding:20px;  
+    min-height:450px; 
+}
+#content
+{
+    width: 460px;
+}
+#loginpane
+{
+    border: 1px solid #DDD;
+    border-radius:6px;
+    width: 260px;
+    padding:20px;
+    padding-top:0;
+    background: #FFF;
+	opacity: 0.9;            
+}
+.labelentry
+{
+    display:block;
+    margin-top: 10px;
+}
+input[type=text], input[type=password],textarea, select
+{
+    border: 1px solid #DDD;
+    border-radius: 6px;
+    width:230px;   
+    padding:7px 10px; 
+}
+
+
+.loginButton
+{
+    border-radius:6px;
+    background:url("../images/header.jpg");
+    height: 25px;
+    border-color: #03F;
+    color:#333;
+}
+.shorttext
+{
+    width:150px;
+}
+#loginType
+{
+	margin-top:10px;
+}
+#loginType a
+{
+	color:Blue;
+	font-size:16px;
+	text-decoration:none;
+	display:block;
+	margin-bottom:15px;
+	border:1px solid #DDD;
+	border-radius:6px;
+	padding:5px;
+	height:30px;
+}
+#loginType a:hover
+{
+	color:#F00;
+	background:#039;
+}
+#footer
+{
+    height:40px;
+    text-align:center;
+    font-size:12px;
+    padding:20px;
+}
